@@ -27,3 +27,6 @@ services:
       API_ENDPOINT: "API; http://localhost:7000/_/"
     ports:
       - 8000:80
+networks:
+    dockernet:
+        external: true
