@@ -7,7 +7,7 @@ services:
   api:
     image: directus/api:latest
     environment:
-      DATABASE_HOST: ubuntu
+      DATABASE_HOST: 172.17.0.1
       DATABASE_NAME: "directusdb"
       DATABASE_USERNAME: "directusdb"
       DATABASE_PASSWORD: "directusdb"
