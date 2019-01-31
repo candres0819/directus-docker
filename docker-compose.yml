@@ -26,7 +26,7 @@ services:
   app:
     image: directus/app:latest
     environment:
-      API_ENDPOINT: "API; http://localhost:7000/_/"
+      API_ENDPOINT: "API; http://ubuntu:7000/_/"
     volumes:
       - /etc/hosts:/etc/hosts
     ports:
